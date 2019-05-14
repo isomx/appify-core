@@ -1,0 +1,21 @@
+{
+    "name": "appify-core",
+    "version": "0.0.0",
+    "description": "Appify Core",
+    "main": "index.js",
+    "dependencies": {
+        "rxjs": "^6.4.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Josh Cope",
+    "license": "ISC",
+    "bit": {
+        "env": {
+            "compiler": "bit.envs/compilers/babel@7.0.1"
+        },
+        "componentsDefaultDirectory": "components/{name}",
+        "packageManager": "npm"
+    }
+}
