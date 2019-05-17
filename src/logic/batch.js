@@ -1,7 +1,7 @@
-import { scheduled, asapScheduler, Subscriber, Observable } from 'rxjs/index';
+import { scheduled, asapScheduler, Subscriber, Observable } from 'rxjs';
 import {
   NAME, ID, ARGS, ACTION_TYPE, PRIORITY, DEFAULTS, THIS_ARG
-} from '../../constants/logicProps';
+} from '../constants/logicProps';
 
 const nextTick$ = scheduled([], asapScheduler);
 const byTime = (time) => new Observable(observer => {

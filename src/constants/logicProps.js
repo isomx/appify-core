@@ -1,4 +1,3 @@
-
 /**
  * @property {string} ID - {*} the key that is used to
  * define the id of the logic. An ID is not required
@@ -130,5 +129,4 @@ const LOGIC_PROPS = {
   THIS_ARG: THIS_ARG,
   DEBUG: DEBUG
 };
-
 export default LOGIC_PROPS;
