@@ -97,17 +97,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "appify.core/utils/is-observable-or-promise@0.0.1": {
-        "files": [
-            {
-                "relativePath": "src/utils/isObservableOrPromise.js",
-                "test": false,
-                "name": "isObservableOrPromise.js"
-            }
-        ],
-        "mainFile": "src/utils/isObservableOrPromise.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
     "version": "14.1.1"
 }
