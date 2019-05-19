@@ -25,18 +25,6 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "appify.core/logic/batch@0.0.1": {
-        "files": [
-            {
-                "relativePath": "src/logic/batch.js",
-                "test": false,
-                "name": "batch.js"
-            }
-        ],
-        "mainFile": "src/logic/batch.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
     "appify.core/logic/utils/logic-id-from-name@0.0.1": {
         "files": [
             {
@@ -94,6 +82,46 @@
             }
         ],
         "mainFile": "src/utils/isPromise.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/logic/batch@0.0.2": {
+        "files": [
+            {
+                "name": "batch.js",
+                "relativePath": "src/logic/batch.js",
+                "test": false
+            }
+        ],
+        "mainFile": "src/logic/batch.js",
+        "configDir": "{COMPONENT_DIR}",
+        "origin": "AUTHORED",
+        "dependencies": [
+            "appify.core/constants/logic-props@0.0.10"
+        ],
+        "exported": true
+    },
+    "appify.core/utils/matching@0.0.6": {
+        "files": [
+            {
+                "relativePath": "src/utils/matching.js",
+                "test": false,
+                "name": "matching.js"
+            }
+        ],
+        "mainFile": "src/utils/matching.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/operators/pluck-on-value@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/operators/pluckOnValue.js",
+                "test": false,
+                "name": "pluckOnValue.js"
+            }
+        ],
+        "mainFile": "src/operators/pluckOnValue.js",
         "origin": "AUTHORED",
         "exported": true
     },

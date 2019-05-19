@@ -1,34 +1,45 @@
 {
-  "name": "appify-core",
-  "version": "0.0.0",
-  "description": "Appify Core",
-  "main": "index.js",
-  "dependencies": {
-    "@bit/lodash.lodash.is-array": "^4.17.11",
-    "rxjs": "^6.4.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Josh Cope",
-  "license": "ISC",
-  "bit": {
-    "env": {
-      "compiler": "bit.envs/compilers/babel@7.0.1"
+    "name": "appify-core",
+    "version": "0.0.0",
+    "description": "Appify Core",
+    "main": "index.js",
+    "dependencies": {
+        "@bit/lodash.lodash.get": "^4.17.11",
+        "@bit/lodash.lodash.is-array": "^4.17.11"
     },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm",
-    "overrides": {
-      "appify.core/utils/unique-id": {
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "rxjs": "^6.4.0"
+    },
+    "peerDependencies": {
+        "rxjs": "^6.4.0"
+    },
+    "author": "Josh Cope",
+    "license": "ISC",
+    "bit": {
         "env": {
-          "compiler": "bit.envs/compilers/babel@7.0.1"
+            "compiler": "bit.envs/compilers/babel@7.0.1"
+        },
+        "componentsDefaultDirectory": "components/{name}",
+        "packageManager": "npm",
+        "overrides": {
+            "appify.core/utils/unique-id": {
+                "env": {
+                    "compiler": "bit.envs/compilers/babel@7.0.1"
+                }
+            },
+            "appify.core/constants/logic-props": {
+                "env": {
+                    "compiler": "bit.envs/compilers/babel@7.0.1"
+                }
+            },
+            "appify.core/logic/batch": {
+                "env": {
+                    "compiler": "bit.envs/compilers/babel@7.0.1"
+                }
+            }
         }
-      },
-      "appify.core/constants/logic-props": {
-        "env": {
-          "compiler": "bit.envs/compilers/babel@7.0.1"
-        }
-      }
     }
-  }
 }
