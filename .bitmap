@@ -113,7 +113,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "appify.core/operators/pluck-on-value@0.0.1": {
+    "appify.core/operators/pluck-on-value@0.0.2": {
         "files": [
             {
                 "relativePath": "src/operators/pluckOnValue.js",
@@ -122,6 +122,42 @@
             }
         ],
         "mainFile": "src/operators/pluckOnValue.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/utils/upper-case-first-letter@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/utils/upperCaseFirstLetter.js",
+                "test": false,
+                "name": "upperCaseFirstLetter.js"
+            }
+        ],
+        "mainFile": "src/utils/upperCaseFirstLetter.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/utils/lower-case-first-letter@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/utils/lowerCaseFirstLetter.js",
+                "test": false,
+                "name": "lowerCaseFirstLetter.js"
+            }
+        ],
+        "mainFile": "src/utils/lowerCaseFirstLetter.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/utils/camel-case-fields@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/utils/camelCaseFields.js",
+                "test": false,
+                "name": "camelCaseFields.js"
+            }
+        ],
+        "mainFile": "src/utils/camelCaseFields.js",
         "origin": "AUTHORED",
         "exported": true
     },
