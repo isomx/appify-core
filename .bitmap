@@ -149,7 +149,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "appify.core/utils/camel-case-fields@0.0.1": {
+    "appify.core/utils/camel-case-fields@0.0.2": {
         "files": [
             {
                 "relativePath": "src/utils/camelCaseFields.js",
@@ -158,6 +158,18 @@
             }
         ],
         "mainFile": "src/utils/camelCaseFields.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "appify.core/utils/object-with-iterator@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/utils/objectWithIterator.js",
+                "test": false,
+                "name": "objectWithIterator.js"
+            }
+        ],
+        "mainFile": "src/utils/objectWithIterator.js",
         "origin": "AUTHORED",
         "exported": true
     },
